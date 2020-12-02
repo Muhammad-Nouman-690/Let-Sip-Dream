@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-
+   
 }
 
 p.test1 {
@@ -10,8 +10,93 @@ p.test1 {
   
   p.test2 {
     writing-mode: vertical-rl; 
+    font-size: 50px;
+    font-family: "Sofia", sans-serif;
+    text-shadow: 5px 5px 5px #ababab;
+    padding-top : 40px;
   }
   
   span.test2 {
     writing-mode: vertical-rl; 
   }
+  
+ 
+.nav-item{
+  color: #ffffff;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.main-logo {
+  width:100px;
+}
+
+.navbar-brand .main-logo:hover {
+  background:none;
+}
+
+
+.back {
+  background-image: url('../Images/header.png');
+  padding-top:50%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  width:100%;
+}
+
+.ag-back {
+  width: 100%;
+}
+
+.card{
+  background-image: url('Images/bg-card.png');
+  background-size: cover;
+  padding-top:5%;
+  padding-bottom: 5%;
+}
+
+.card-body{
+  background-color: #ffffff;
+}
+
+.img_vd{
+  background-color: #020202;
+  padding-top:5%;
+  padding-bottom: 5%;
+}
+
+
+.social{
+  background-color: #262626;
+}
+
+.footer {
+  background-color: #010101;
+}
+
+.blog-1{
+  width: 615px;
+}
+
+.fa {
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: #ffffff;
+  
+  
+}
+.fa:hover{
+  color: #ffd226;
+}
+
+.tx-img{
+  background-image: url('Images/bg-card.png'); 
+  background-size: contain;
+  
+}
+
+.prop{
+  padding-top: 40px;
+}
