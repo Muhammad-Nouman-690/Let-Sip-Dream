@@ -25,12 +25,21 @@ p.test1 {
   color: #ffffff;
 }
 
-.navbar a:hover {
-  background-color: #000;
+a:hover {
+  color: #ffd226;
 }
+
+a:active  {
+  color: #ffd226;
+}
+
 
 .main-logo {
   width:100px;
+}
+
+.sec_logo {
+  width: 55px;
 }
 
 .navbar-brand .main-logo:hover {
@@ -38,23 +47,12 @@ p.test1 {
 }
 
 
-.back {
-  background-image: url('../Images/header.png');
-  padding-top:50%;
-  background-size:cover;
-  background-repeat: no-repeat;
-  width:100%;
-}
-
-.ag-back {
-  width: 100%;
-}
-
 .card{
   background-image: url('Images/bg-card.png');
   background-size: cover;
   padding-top:5%;
   padding-bottom: 5%;
+  border: 0px;
 }
 
 .card-body{
@@ -74,6 +72,10 @@ p.test1 {
 
 .footer {
   background-color: #010101;
+  color: #ffffff;
+  font-size: smaller;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .blog-1{
@@ -81,22 +83,40 @@ p.test1 {
 }
 
 .fa {
-  padding-top: 10px; 
-  padding-bottom: 10px; 
+  padding: 1px;
+  text-align: center;
   color: #ffffff;
-  
-  
+  margin: 5px 10px;
+  padding-left: 55px;
 }
-.fa:hover{
-  color: #ffd226;
+.boo_der:hover{
+  background-color: #ffd226;
 }
 
-.tx-img{
-  background-image: url('Images/bg-card.png'); 
-  background-size: contain;
-  
+.boo_der1:hover {
+  background-color: #ffd226;
 }
+
+/* .tx-img{
+  background-image: url('Images/bg-card.png'); 
+  
+} */
 
 .prop{
   padding-top: 40px;
 }
+
+.carousel-indicators li {
+  background-color: #ffd226;
+}
+
+/* .foo_name{
+  padding-top: 50px;
+  color: #ffffff;
+} */
+
+.boo_der {
+  border-right: 1px solid #ffffff;
+  
+}
+
