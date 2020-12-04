@@ -1,6 +1,7 @@
-body{
-    margin: 0px;
-    padding: 0px;
+* {
+  box-sizing: border-box;  
+  margin: 0;
+    padding:0;
    
 }
 
@@ -70,12 +71,30 @@ a:active  {
   background-color: #262626;
 }
 
-.footer {
+.end_foo  {
   background-color: #010101;
+  padding: 6px 6px;
+
+}
+
+.li_foo {
+  display: flex;
+  
+}
+
+.li_foo li  {
+  list-style: none;
+ 
+
+}
+
+.li_foo li {
+  text-decoration: none;
   color: #ffffff;
-  font-size: smaller;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 2px 10px;
+  
+  font-size: small;  
+  
 }
 
 .blog-1{
@@ -87,23 +106,35 @@ a:active  {
   text-align: center;
   color: #ffffff;
   margin: 5px 10px;
-  padding-left: 55px;
+  padding-left: 82px;
 }
 .boo_der:hover{
   background-color: #ffd226;
+  cursor: pointer;
 }
 
 .boo_der1:hover {
   background-color: #ffd226;
+  cursor: pointer;
 }
 
-/* .tx-img{
+.boo_der i:hover {
+  color: #000000;
+}
+
+.boo_der1 i:hover {
+  color: #000000;
+}
+
+/* .tx-img
+{
   background-image: url('Images/bg-card.png'); 
-  
+  background-size: cover;
 } */
 
 .prop{
-  padding-top: 40px;
+  padding-top: 120px;
+  text-align: center;
 }
 
 .carousel-indicators li {
@@ -120,3 +151,26 @@ a:active  {
   
 }
 
+.vd_para {
+  color: #ffffff;
+  text-align: justify;
+  padding: 7px 7px;
+  padding-top: 60px;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon {
+  height: 10px;
+  width: 20px;
+}
+
+.ven {
+height: 500px;
+  padding: 40px 50px;
+}
+
+.prop_txt {
+  text-align: center;
+  padding: 10px 10px;
+  padding-top: 35px;
+  font-size: smaller;
+}

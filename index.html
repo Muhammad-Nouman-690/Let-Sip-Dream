@@ -128,13 +128,17 @@
 
     <!-- Image and video -->
     <div class="img_vd">
-        <div class="container mt-1" >
+        <div class="container " >
             <div class="row">
                 <div class="col-md-6"><img src="Images/eader-next.png" alt="" height="430px"></div>
-                <div class="col-md-6"><video width="400" controls>
-                        <source src="mov_bbb.mp4" type="video/mp4">
-                                               
-                    </video></div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/4LGl09_LCTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        
+                        <p class="vd_para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim assumenda commodi perspiciatis ipsum animi et hic dicta molestiae? Facilis non eligendi nulla sapiente harum, necessitatibus nobis accusamus provident nesciunt voluptatem?</p>
+                    </div>
+                    
+                </div>
 
             </div>
         </div>
@@ -145,12 +149,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2" >
-                    <p class="test2" >Some text </p>
-
+                  <img class="ven" src="Images/ventures.png"  alt="">
                 </div>
                 <div class="col-md-4" >
-                    <h1 class="prop" >The writing-mode Property</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consectetur aspernatur molestiae perspiciatis, molestias doloremque ut laudantium modi in voluptate. Harum ad temporibus id totam officiis earum accusantium quam voluptate.</p>
+                <h4 class="prop" > The writing-mode Property</h4>
+                <p class="prop_txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut consectetur aspernatur molestiae perspiciatis, molestias doloremque ut laudantium modi in voluptate. Harum ad temporibus id totam officiis earum accusantium quam voluptate.</p>
                 </div>
                 <div class="col-md-6">
                     <img class="blog-1" src="Images/blog1.png" alt="" >
@@ -181,25 +184,37 @@
         <!-- Footer -->
 
 <footer>
-        <div class="footer">
+        <div class="end_foo">
         <div class="container">
             <div class="row "  >
-                <div class="col-md-3" ><img  src="Images/logo.png" class="main-logo" alt=""></div>
-                <div class="col-md-9">
+                <div class="col" ><img  src="Images/logo.png" class="main-logo" alt=""></div>
+                <div class="col">
                     <div class="row" >
-                        <div class="col" class="foo_name" >Products&Company</div>
-                        <div class="col" class="foo_name" >Voices</div>
-                        <div class="col" class="foo_name" >Ventures</div>
-                        <div class="col" class="foo_name" >ContactUS</div>
-                        <div class="col" class="foo_name" >Privacy Policy</div>
-                        <div class="col" class="foo_name" >Terms of Use</div>
+                        <ul class="li_foo">
+                            <li >product & company</li>
+                            <li >voices</li>
+                            <li >ventures</li>
+                            <li >contact US</li>
+                            <li >privacy policy</li>
+                            <li >terms of use</li>
+                        </ul>      
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </footer>
-
+<!-- <footer >
+<img class="main-logo" src="Images/logo.png" alt="logo">
+  <ul>
+      <li><a href="#">products & compnay</a></li>
+      <li><a href="#">voices</a></li>
+      <li><a href="#">ventures</a></li>
+      <li><a href="#">contact US</a></li>
+      <li><a href="#">privacy policy</a></li>
+      <li><a href="#">terms of use</a></li>
+  </ul>      
+    </footer> -->
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
