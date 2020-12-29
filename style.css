@@ -1,15 +1,14 @@
 * {
   box-sizing: border-box;  
   margin: 0;
-    padding:0;
-   
+  padding:0;   
 }
 
 p.test1 {
     writing-mode: horizontal-tb; 
   }
   
-  p.test2 {
+p.test2 {
     writing-mode: vertical-rl; 
     font-size: 50px;
     font-family: "Sofia", sans-serif;
@@ -17,12 +16,15 @@ p.test1 {
     padding-top : 40px;
   }
   
-  span.test2 {
+span.test2 {
     writing-mode: vertical-rl; 
-  }
+}
   
- 
-.nav-item{
+.fixed-top {
+  position: absolute;
+}
+  
+.nav-item {
   color: #ffffff;
 }
 
@@ -30,75 +32,67 @@ a:hover {
   color: #ffd226;
 }
 
-a:active  {
+a:active {
   color: #ffd226;
 }
-
 
 .main-logo {
   width:100px;
 }
 
 .sec_logo {
-  width: 55px;
+  width: 50px;  
+  margin-left: 55px;
 }
 
 .navbar-brand .main-logo:hover {
   background:none;
 }
 
-
-.card{
+.card {
   background-image: url('Images/bg-card.png');
   background-size: cover;
-  padding-top:5%;
-  padding-bottom: 5%;
-  border: 0px;
+  padding-top:1%;
+  padding-bottom: 1%;
+  border: 1px;
 }
 
-.card-body{
+.card-body {
   background-color: #ffffff;
 }
 
-.img_vd{
+.img_vd {
   background-color: #020202;
-  padding-top:5%;
-  padding-bottom: 5%;
+  padding-top:1%;
+  padding-bottom: 1%;
 }
 
-
-.social{
+.social {
   background-color: #262626;
 }
 
-.end_foo  {
+.end_foo {
   background-color: #010101;
   padding: 6px 6px;
-
 }
 
 .li_foo {
-  display: flex;
-  
+  display: flex;  
 }
 
-.li_foo li  {
+.li_foo li {
   list-style: none;
- 
-
 }
 
 .li_foo li {
   text-decoration: none;
   color: #ffffff;
-  padding: 2px 10px;
-  
-  font-size: small;  
-  
+  padding: 2px 10px;  
+  font-size: small;    
 }
 
-.blog-1{
-  width: 615px;
+.blog-1 {
+  width: 655px;
 }
 
 .fa {
@@ -108,7 +102,8 @@ a:active  {
   margin: 5px 10px;
   padding-left: 82px;
 }
-.boo_der:hover{
+
+.boo_der:hover {
   background-color: #ffd226;
   cursor: pointer;
 }
@@ -118,21 +113,15 @@ a:active  {
   cursor: pointer;
 }
 
-.boo_der i:hover {
+.boo_der:hover i {
   color: #000000;
 }
 
-.boo_der1 i:hover {
+.boo_der1:hover i {
   color: #000000;
 }
 
-/* .tx-img
-{
-  background-image: url('Images/bg-card.png'); 
-  background-size: cover;
-} */
-
-.prop{
+.prop {
   padding-top: 120px;
   text-align: center;
 }
@@ -141,14 +130,8 @@ a:active  {
   background-color: #ffd226;
 }
 
-/* .foo_name{
-  padding-top: 50px;
-  color: #ffffff;
-} */
-
 .boo_der {
-  border-right: 1px solid #ffffff;
-  
+  border-right: 1px solid gray;  
 }
 
 .vd_para {
@@ -164,7 +147,7 @@ a:active  {
 }
 
 .ven {
-height: 500px;
+  height: 500px;
   padding: 40px 50px;
 }
 
